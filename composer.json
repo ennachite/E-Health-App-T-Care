@@ -7,6 +7,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "algolia/algoliasearch-client-php": "^3.0",
+        "arcanedev/localization": "^8.1",
         "backpack/crud": "4.1.*",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",

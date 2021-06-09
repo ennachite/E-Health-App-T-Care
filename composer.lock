@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa7ba29915c69a548c4c33ef498e76a8",
+    "content-hash": "2bf519d15064800bdd234dd7fbe05591",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -79,6 +79,144 @@
                 "source": "https://github.com/algolia/algoliasearch-client-php/tree/3.0.2"
             },
             "time": "2021-05-04T09:15:35+00:00"
+        },
+        {
+            "name": "arcanedev/localization",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ARCANEDEV/Localization.git",
+                "reference": "6b152766fd922efe29869a8960273edbcd329afb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ARCANEDEV/Localization/zipball/6b152766fd922efe29869a8960273edbcd329afb",
+                "reference": "6b152766fd922efe29869a8960273edbcd329afb",
+                "shasum": ""
+            },
+            "require": {
+                "arcanedev/support": "^8.0",
+                "ext-json": "*",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "mockery/mockery": "^1.4.2",
+                "orchestra/testbench": "^6.4",
+                "phpunit/phpunit": "^9.3.3"
+            },
+            "suggest": {
+                "ext-intl": "Use Intl extension for 'Locale' class (an identifier used to get language)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "8.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Arcanedev\\Localization\\LocalizationServiceProvider",
+                        "Arcanedev\\Localization\\Providers\\DeferredServicesProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Arcanedev\\Localization\\": "src/"
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ARCANEDEV",
+                    "email": "arcanedev.maroc@gmail.com",
+                    "homepage": "https://github.com/arcanedev-maroc",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Localization Package for Laravel",
+            "homepage": "https://github.com/ARCANEDEV/Localization",
+            "keywords": [
+                "arcanedev",
+                "i18n",
+                "laravel",
+                "localisation",
+                "localization"
+            ],
+            "support": {
+                "issues": "https://github.com/ARCANEDEV/Localization/issues",
+                "source": "https://github.com/ARCANEDEV/Localization/tree/8.1.0"
+            },
+            "time": "2021-02-05T10:35:51+00:00"
+        },
+        {
+            "name": "arcanedev/support",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ARCANEDEV/Support.git",
+                "reference": "b161c3c080b314e832410295011625721fbd3a2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ARCANEDEV/Support/zipball/b161c3c080b314e832410295011625721fbd3a2f",
+                "reference": "b161c3c080b314e832410295011625721fbd3a2f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "laravel/framework": "^8.0",
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Arcanedev\\Support\\": "src/"
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ARCANEDEV",
+                    "email": "arcanedev.maroc@gmail.com",
+                    "homepage": "https://github.com/arcanedev-maroc"
+                }
+            ],
+            "description": "ARCANEDEV Support Helpers",
+            "homepage": "https://github.com/ARCANEDEV/Support",
+            "keywords": [
+                "arcanedev",
+                "arcanesoft",
+                "laravel",
+                "support"
+            ],
+            "support": {
+                "issues": "https://github.com/ARCANEDEV/Support/issues",
+                "source": "https://github.com/ARCANEDEV/Support/tree/8.1.0"
+            },
+            "time": "2020-11-27T17:09:38+00:00"
         },
         {
             "name": "asm89/stack-cors",
